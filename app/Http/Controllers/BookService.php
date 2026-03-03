@@ -1,8 +1,11 @@
 <?php
 
-namespace App\Services;
+namespace App\Http\Controllers;
+//namespace App\Services;
 
-class BookService
+use App\Http\Controllers\Controller;
+
+class BookService extends Controller
 {
     public function getAllBooks(): array
     {
